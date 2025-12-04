@@ -26,20 +26,20 @@ TICK_COLUMNS = [
     "transaction_id",
 ]
 
-# Data types for efficient parsing
+# Data types for efficient parsing (using original CSV column names with spaces)
 TICK_DTYPES = {
     "date": pl.Utf8,
-    "issue_code": pl.Utf8,
-    "isin_code": pl.Utf8,
-    "exchange_code": pl.Utf8,
-    "issue_classification": pl.Utf8,
-    "industry_code": pl.Utf8,
-    "supervision_flag": pl.Utf8,
+    "issue code": pl.Utf8,
+    "isin code": pl.Utf8,
+    "exchange code": pl.Utf8,
+    "issue classification": pl.Utf8,
+    "industry code": pl.Utf8,
+    "securities under supervision and to be delisted flag": pl.Utf8,
     "time": pl.Utf8,
-    "session": pl.Utf8,
+    "session distinction": pl.Utf8,
     "price": pl.Float64,
-    "volume": pl.Int64,
-    "transaction_id": pl.Utf8,
+    "trading volume": pl.Int64,
+    "transaction id": pl.Utf8,
 }
 
 

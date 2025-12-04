@@ -167,3 +167,4 @@ ent_coef = 0.01
 - 8GB CSVは直接読まず、Polars lazy + stock_code filteringで処理
 - warmup期間（デフォルト100バー）は特徴量計算で使用、学習データからは除外
 - GPU 4070Ti Superで学習高速化可能
+- **Windows注意**: .gitignoreの`ENV/`はWindowsで`src/env/`にもマッチする（大文字小文字非区別）。`/ENV/`（先頭スラッシュ）でルートのみ指定すること
