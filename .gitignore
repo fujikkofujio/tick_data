@@ -27,7 +27,7 @@ wheels/
 # Virtual environments
 .venv/
 venv/
-ENV/
+/ENV/
 
 # Jupyter
 .ipynb_checkpoints/

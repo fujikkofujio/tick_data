@@ -101,7 +101,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--csv",
         type=str,
-        default="/Users/asefujiko/tools/tick_data/stock_tick_data/stock_tick_202510.csv",
+        default=str(Path(__file__).parent.parent / "stock_tick_data" / "stock_tick_202510.csv"),
         help="Path to raw tick CSV",
     )
     parser.add_argument(

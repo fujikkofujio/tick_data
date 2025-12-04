@@ -47,6 +47,17 @@ tick_data/
 
 ## Environment Setup
 
+### Windows
+
+```cmd
+cd C:\Users\fujikko\devml\tick_data
+python -m venv .venv
+.venv\Scripts\activate
+pip install -e .
+```
+
+### Mac/Linux
+
 ```bash
 cd /Users/asefujiko/tools/tick_data
 python -m venv .venv
